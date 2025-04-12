@@ -1,0 +1,119 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #f3f7fa, #d8eefe);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-bottom: 3px solid #bce0ff;
+}
+
+.header-content {
+  padding: 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #0055aa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: #0055aa;
+  margin: 5px 0;
+}
+
+p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #0055aa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.progress-section {
+  padding: 30px;
+  background-color: #e1f3ff;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 30px;
+  background-color: #d0d0d0;
+  margin: 15px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #3ac569;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+  transition: width 0.5s;
+}
+
+.lessons-section {
+  padding: 40px;
+}
+
+.lessons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.lesson-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.lesson-card:hover {
+  transform: scale(1.05);
+}
+
+.lesson-complete {
+  border: 2px solid #3ac569;
+  background-color: #e5fce9;
+}
+
+.lesson-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+}
